@@ -19,7 +19,7 @@ variables:
   mongoConnectionString: $(MONGO_CONNECTION_STRING)
 
   # Gunakan Self-Hosted Agent
-  poolName: 'kelompok3'
+  poolName: 'nero3'
 
 stages:
 - stage: Build
