@@ -1,6 +1,6 @@
 # Azure DevOps Pipeline for Node.js Express App
 # Automatically builds, tests, and deploys to Azure Web App (Linux)
-# Uses MongoDB Atlas & self-hosted agent 'NeroMaru'
+# Uses MongoDB Atlas & self-hosted agent 'kelompok3'
 
 trigger:
 - main
@@ -19,7 +19,7 @@ variables:
   mongoConnectionString: $(MONGO_CONNECTION_STRING)
 
   # Gunakan Self-Hosted Agent
-  poolName: 'nero3'
+  poolName: 'kelompok3'
 
 stages:
 - stage: Build
